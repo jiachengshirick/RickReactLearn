@@ -1,2 +1,1 @@
-# RickReactLearn
-This is the learning story of React
+https://blog.csdn.net/geerniya/article/details/79552247
