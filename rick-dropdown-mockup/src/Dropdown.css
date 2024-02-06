@@ -1,0 +1,56 @@
+.grid-container {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: black; /* 设置整体背景颜色为黑色 */
+    color: white; /* 设置文字颜色为白色 */
+    margin-bottom: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-button {
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+
+.dropdown-button:hover {
+    background-color: #2980b9; /* 悬停时改变背景颜色 */
+    transform: scale(1.05); /* 悬停时放大按钮 */
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    list-style: none;
+    left: 80px;
+    padding: 0;
+    margin: 0;
+    color: black;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.dropdown-list li:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown.active .dropdown-list {
+    display: block;
+}
